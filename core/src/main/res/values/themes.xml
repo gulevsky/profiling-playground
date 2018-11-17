@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Flat" parent="Theme.AppCompat">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/turquoise</item>
+        <item name="colorPrimaryDark">@color/green_sea</item>
+        <item name="colorAccent">@color/turquoise</item>
+        <item name="android:colorControlNormal">@color/turquoise</item>
+        <item name="colorControlNormal">@color/turquoise</item>
+        <item name="android:textColorPrimary">@color/turquoise</item>
+        <item name="android:textColorHint">@color/asbestos</item>
+
+        <!-- Window -->
+        <item name="android:windowBackground">@color/wet_asphalt</item>
+
+        <!-- ActionBar -->
+        <item name="android:actionBarStyle">@style/Flat.ActionBar</item>
+        <item name="actionBarStyle">@style/Flat.ActionBar</item>
+        <item name="android:actionMenuTextColor">@color/midnight_blue</item>
+        <item name="actionMenuTextColor">@color/midnight_blue</item>
+
+        <!-- Widgets -->
+        <item name="android:buttonStyle">@style/Flat.Button</item>
+        <item name="buttonStyle">@style/Flat.Button</item>
+    </style>
+
+    <style name="Theme.Flat.NoActionBar">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/wet_asphalt</item>
+        <item name="colorPrimaryDark">@color/midnight_blue</item>
+        <item name="colorAccent">@color/turquoise</item>
+
+        <!-- Window -->
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

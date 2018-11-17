@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.Playground" parent="Theme.Flat"/>
+    <style name="Theme.Playground.NoActionBar" parent="Theme.Flat.NoActionBar"/>
+</resources>

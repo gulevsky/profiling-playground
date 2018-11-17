@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Flat"/>
+
+    <style name="Flat.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/Flat.ActionBarTitle</item>
+        <item name="titleTextStyle">@style/Flat.ActionBarTitle</item>
+    </style>
+
+    <style name="Flat.ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/midnight_blue</item>
+    </style>
+
+    <style name="Flat.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/midnight_blue</item>
+        <item name="android:backgroundTint">@color/turquoise</item>
+        <item name="backgroundTint">@color/turquoise</item>
+    </style>
+
+</resources>
