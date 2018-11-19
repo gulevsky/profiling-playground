@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Palette" parent="Theme.Flat">
+    </style>
+
+    <style name="Theme.Palette.NoActionBar" parent="Theme.Flat.NoActionBar">
+    </style>
+
+</resources>

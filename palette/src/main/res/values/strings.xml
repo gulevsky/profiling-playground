@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Palette</string>
+
+    <string name="color_turquoise">Turquoise</string>
+    <string name="color_green_sea">Green Sea</string>
+    <string name="color_emerald">Emerald</string>
+    <string name="color_nephritis">Nephritis</string>
+    <string name="color_peter_river">Peter River</string>
+    <string name="color_belize_hole">Belize Hole</string>
+    <string name="color_amethyst">Amethyst</string>
+    <string name="color_wisteria">Wisteria</string>
+    <string name="color_wet_asphalt">Wet Asphalt</string>
+    <string name="color_midnight_blue">Midnight Blue</string>
+    <string name="color_sun_flower">Sun Flower</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_carrot">Carrot</string>
+    <string name="color_pumpkin">Pumpkin</string>
+    <string name="color_alizarin">Alizarin</string>
+    <string name="color_pomegranate">Pomegranate</string>
+    <string name="color_clouds">Clouds</string>
+    <string name="color_silver">Silver</string>
+    <string name="color_concrete">Concrete</string>
+    <string name="color_asbestos">Asbestos</string>
+</resources>

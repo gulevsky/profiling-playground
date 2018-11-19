@@ -4,8 +4,10 @@
 
     <color name="transparent">#00000000</color>
     <color name="translucent">#80000000</color>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_50">#FF808080</color>
+    <color name="gray_60">#FF999999</color>
 
     <!-- Flat UI Palette -->
     <color name="turquoise">#1ABC9C</color>
