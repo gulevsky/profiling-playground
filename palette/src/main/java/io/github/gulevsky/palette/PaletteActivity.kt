@@ -23,5 +23,7 @@ class PaletteActivity : AppCompatActivity() {
 
         val rootView: ViewGroup = findViewById(R.id.root_view)
         rootView += component.viewController.recyclerView
+
+        component.reporter.reportEvent("palette activity created")
     }
 }
