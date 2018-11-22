@@ -5,6 +5,7 @@ import io.github.gulevsky.analytics.Analytics
 import io.github.gulevsky.analytics.Reporter
 import io.github.gulevsky.palette.dagger.AppComponent
 import io.github.gulevsky.palette.dagger.DaggerAppComponent
+import java.util.*
 
 class PaletteApplication : Application() {
 
@@ -25,6 +26,6 @@ class PaletteApplication : Application() {
     }
 
     companion object {
-        private const val ANALYTICS_KEY = "879B3811-DD35-4ED1-A50C-02CADD2499D1"
+        private val ANALYTICS_KEY = UUID.randomUUID().toString()
     }
 }

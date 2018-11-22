@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <View
+    <io.github.gulevsky.palette.view.ColorView
             android:id="@+id/color_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

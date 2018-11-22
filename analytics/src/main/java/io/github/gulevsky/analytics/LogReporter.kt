@@ -1,8 +1,13 @@
 package io.github.gulevsky.analytics
 
 import android.util.Log
+import io.github.gulevsky.core.perf.complexOperation
 
 class LogReporter : Reporter {
+
+    init {
+        complexOperation(8, 4, 8)
+    }
 
     override fun reportEvent(message: String) {
         Log.i(TAG, message)

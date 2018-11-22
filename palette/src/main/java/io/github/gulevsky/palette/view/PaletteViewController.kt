@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import io.github.gulevsky.core.perf.complexOperation
 import io.github.gulevsky.palette.R
 import io.github.gulevsky.palette.dagger.PaletteScope
 import javax.inject.Inject
@@ -24,5 +25,9 @@ class PaletteViewController @Inject internal constructor(
             layoutManager = GridLayoutManager(context, 2)
             adapter = paletteAdapter
         }
+
+        complexOperation(2, 4, 2, 4, 2, 4)
     }
+
+    fun onStart() = complexOperation(4, 2, 1, 4, 2, 1, delayMs = 4L)
 }

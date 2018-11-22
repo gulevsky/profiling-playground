@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.TextView
+import io.github.gulevsky.core.perf.complexOperation
 import io.github.gulevsky.palette.R
 
 class PaletteItemView(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
@@ -37,5 +38,6 @@ class PaletteItemView(context: Context, attrs: AttributeSet? = null) : FrameLayo
         val width = MeasureSpec.getSize(widthMeasureSpec)
         val overriddenHeightMeasureSpec = MeasureSpec.makeMeasureSpec(width, MeasureSpec.EXACTLY)
         super.onMeasure(widthMeasureSpec, overriddenHeightMeasureSpec)
+        complexOperation(4, 2, 4, 8, 2)
     }
 }

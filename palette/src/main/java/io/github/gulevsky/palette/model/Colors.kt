@@ -3,9 +3,11 @@ package io.github.gulevsky.palette.model
 import android.content.Context
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
+import io.github.gulevsky.core.perf.complexOperation
 import io.github.gulevsky.palette.R
 
 fun flatColors(context: Context): List<Color> {
+    complexOperation(2, 1, 1, 2, 1, 1, 1, 1, delayMs = 32L)
     return listOf(
             Color(context.color(R.color.wet_asphalt), context.getString(R.string.color_wet_asphalt)),
             Color(context.color(R.color.midnight_blue), context.getString(R.string.color_midnight_blue)),

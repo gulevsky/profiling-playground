@@ -1,6 +1,7 @@
 package io.github.gulevsky.analytics
 
 import android.content.Context
+import io.github.gulevsky.core.perf.complexOperation
 
 object Analytics {
 
@@ -20,7 +21,7 @@ object Analytics {
         }
     }
 
-    private fun performInitialization(context: Context) = Unit
+    private fun performInitialization(context: Context) = complexOperation(2, 1, 2, 1, 2, 1, 1, 1, delayMs = 64L)
 
     fun getReporter(key: String): Reporter {
         synchronized(this) {

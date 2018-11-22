@@ -26,4 +26,9 @@ class PaletteActivity : AppCompatActivity() {
 
         component.reporter.reportEvent("palette activity created")
     }
+
+    override fun onStart() {
+        super.onStart()
+        component.viewController.onStart()
+    }
 }
