@@ -1,7 +1,7 @@
 package io.github.gulevsky.analytics
 
 import android.util.Log
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 
 class LogReporter : Reporter {
 

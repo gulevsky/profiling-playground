@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.TextView
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 import io.github.gulevsky.palette.R
 
 class PaletteItemView(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {

@@ -3,7 +3,7 @@ package io.github.gulevsky.palette.model
 import android.content.Context
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 import io.github.gulevsky.palette.R
 
 fun flatColors(context: Context): List<Color> {

@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.Canvas
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 
 class NameView(context: Context, attrs: AttributeSet? = null) : AppCompatTextView(context, attrs) {
 

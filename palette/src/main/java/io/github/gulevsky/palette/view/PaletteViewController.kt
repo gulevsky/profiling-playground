@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 import io.github.gulevsky.palette.R
 import io.github.gulevsky.palette.dagger.PaletteScope
 import javax.inject.Inject

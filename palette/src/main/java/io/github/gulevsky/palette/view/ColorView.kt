@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 import io.github.gulevsky.palette.model.Color
 
 class ColorView(context: Context, attrs: AttributeSet? = null) : View(context, attrs) {

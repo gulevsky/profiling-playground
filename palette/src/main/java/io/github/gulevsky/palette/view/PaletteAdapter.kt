@@ -2,7 +2,7 @@ package io.github.gulevsky.palette.view
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import io.github.gulevsky.core.perf.complexOperation
+import io.github.gulevsky.core.perf.Operations.complexOperation
 import io.github.gulevsky.palette.dagger.PaletteScope
 import io.github.gulevsky.palette.model.Color
 import javax.inject.Inject

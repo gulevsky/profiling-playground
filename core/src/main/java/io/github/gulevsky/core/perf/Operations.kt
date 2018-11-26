@@ -2,20 +2,23 @@
 
 package io.github.gulevsky.core.perf
 
-fun complexOperation(vararg callCounts: Int, delayMs: Long) {
-    complexOperation(callCounts = *callCounts, action = { Thread.sleep(delayMs) })
-}
+object Operations {
 
-fun complexOperation(vararg callCounts: Int, action: () -> Unit = {}) {
-    if (callCounts.isEmpty()) {
-        action()
-        return
+    fun complexOperation(vararg callCounts: Int, delayMs: Long) {
+        complexOperation(callCounts = *callCounts, action = { Thread.sleep(delayMs) })
     }
 
-    val count = callCounts.first()
-    val newCounts = callCounts.sliceArray(1 until callCounts.size)
+    fun complexOperation(vararg callCounts: Int, action: () -> Unit = {}) {
+        if (callCounts.isEmpty()) {
+            action()
+            return
+        }
 
-    for (i in 0 until count) {
-        complexOperation(*newCounts, action = action)
+        val count = callCounts.first()
+        val newCounts = callCounts.sliceArray(1 until callCounts.size)
+
+        for (i in 0 until count) {
+            complexOperation(*newCounts, action = action)
+        }
     }
 }

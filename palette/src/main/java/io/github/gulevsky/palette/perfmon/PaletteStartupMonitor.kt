@@ -1,6 +1,6 @@
 package io.github.gulevsky.palette.perfmon
 
-import io.github.gulevsky.core.perf.timeMillis
+import io.github.gulevsky.core.perf.Profiling.timeMillis
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
