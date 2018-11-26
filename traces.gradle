@@ -1,0 +1,17 @@
+if (tracesEnabled()) {
+    apply plugin: 'com.archinamon.aspectj'
+
+    aspectj {
+        includeAllJars true
+        includeAspectsFromJar 'aspects'
+        buildTimeLog false
+    }
+
+    dependencies {
+        implementation project(path: ':aspects')
+    }
+}
+
+def tracesEnabled() {
+    project.property('traces.enabled').toBoolean()
+}
